@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+.main_div{
+    width: 100vw;
+    min-width: 300px;
+    height: 100vh;
+}
+
+.line_div{
+    margin-top: 1%;
+    border: solid black 2px;
+}
+
+.color_div{
+    width: 100vw;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    background-color: #FFFF;
+}
+
+.heading{
+    color: crimson;
+    display: inline;
+}
+
+.color_name{
+    float: right;
+    margin: 0% 1% ;
+}
+
+button{
+    margin: auto;
+    background-color: crimson;
+    padding: 1%;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+}
